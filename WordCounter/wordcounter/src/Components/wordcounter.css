@@ -1,0 +1,47 @@
+/* WordCounter.css */
+body{
+    background-color: black;
+}
+/* Container styles */
+.word-counter-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Title styles */
+  .word-counter-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #7a0202;
+    
+  }
+  
+  /* Textarea styles */
+  .word-counter-textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    align-items: center;
+    margin: auto;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    align-items: center;
+    margin: auto;
+  }
+  
+  /* Result styles */
+  .word-counter-result {
+    margin-top: 10px;
+    text-align: right;
+    color: #555;
+  }
+  
