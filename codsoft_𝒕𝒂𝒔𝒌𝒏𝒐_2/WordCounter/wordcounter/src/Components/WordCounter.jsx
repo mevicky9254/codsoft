@@ -21,7 +21,7 @@ const WordCounter = () => {
   
     return (
       <div className="word-counter-container">
-        <h1 className="word-counter-title">Word Counter App</h1>
+        <h1 className="word-counter-title">WORD COUNTER APP</h1>
         <textarea className="word-counter-textarea"
           value={text}
           onChange={handleInputChange}
