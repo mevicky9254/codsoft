@@ -11,7 +11,9 @@ public class WordCounterController {
 	
 	@PostMapping("/countWords")
     public int countWords(@RequestBody String text) {
+
         String[] words = text.trim().split("\\s+");
+        
         return words.length;
     }
 	
