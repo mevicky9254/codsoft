@@ -17,7 +17,6 @@ public class NumberController {
 	public int getRandomNumber() {
 		
 		//System.out.println("result "+result);
-		
 		return result;
 		
 	}
